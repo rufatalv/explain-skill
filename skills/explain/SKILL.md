@@ -1,6 +1,10 @@
 ---
 name: explain
 description: Explain code, a flow, a task or a concept in ASD-STE100 (Simplified Technical English) style for a reader with ADHD. Use when the user invokes /explain, or asks to "explain", "walk me through", "what does this do", "how does X work", or asks for an explanation "for an ADHD-er" or "with the STE / ASD-STE100 standard".
+license: MIT
+metadata:
+  author: rufatalv
+  version: "1.0.0"
 ---
 
 # Explain
@@ -11,7 +15,7 @@ Give an explanation the reader can scan in seconds and act on. Use ASD-STE100 wr
 
 ## Language
 
-Answer in the language of the user's request (English, Russian or Azerbaijani). Keep code, file names, identifiers and API names as they are.
+Answer in the language of the user's request. Keep code, file names, identifiers and API names as they are.
 
 ## Before you write
 

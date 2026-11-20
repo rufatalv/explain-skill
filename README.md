@@ -1,6 +1,8 @@
 # explain
 
-A Claude Code skill. It explains code, a flow, a task or a concept in ASD-STE100 (Simplified Technical English) style, with a layout for readers with ADHD: TL;DR first, short active sentences, bullets and tables.
+An [Agent Skill](https://agentskills.io) that explains code, a flow, a task or a concept in ASD-STE100 (Simplified Technical English) style. The layout is for readers with ADHD: TL;DR first, short active sentences, bullets and tables.
+
+It works with any agent that supports Agent Skills, for example Claude Code, Codex, Cursor and Gemini CLI.
 
 ## Install
 
@@ -8,16 +10,17 @@ A Claude Code skill. It explains code, a flow, a task or a concept in ASD-STE100
 npx skills add rufatalv/explain-skill
 ```
 
-Add `-g` to install it for your user, not only for the current project.
-
-Or clone it by hand:
-
-```sh
-git clone https://github.com/rufatalv/explain-skill ~/.claude/skills/explain
-```
+- The CLI asks which agents to install the skill for.
+- Add `-g` to install it for your user, not only for the current project.
+- Add `-a <agent>` to pick the agents without the prompt.
 
 ## Use
 
-Type `/explain <what to explain>` in Claude Code, or ask Claude to "explain" or "walk me through" something.
+- Type `/explain <what to explain>` if your agent supports slash commands.
+- Or ask your agent to "explain" or "walk me through" something.
 
-See [SKILL.md](SKILL.md) for the full rules.
+See [skills/explain/SKILL.md](skills/explain/SKILL.md) for the full rules.
+
+## License
+
+[MIT](LICENSE)
