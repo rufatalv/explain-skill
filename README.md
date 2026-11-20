@@ -5,6 +5,14 @@ A Claude Code skill. It explains code, a flow, a task or a concept in ASD-STE100
 ## Install
 
 ```sh
+npx skills add rufatalv/explain-skill
+```
+
+Add `-g` to install it for your user, not only for the current project.
+
+Or clone it by hand:
+
+```sh
 git clone https://github.com/rufatalv/explain-skill ~/.claude/skills/explain
 ```
 
